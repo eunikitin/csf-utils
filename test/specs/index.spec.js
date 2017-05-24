@@ -7,7 +7,7 @@ describe('Library', () => {
     expect(library).to.have.property('parseCell');
   });
 
-  it('should export comumnName property', () => {
+  it('should export columnName property', () => {
     expect(library).to.have.property('columnName');
   });
 });
