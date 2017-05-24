@@ -3,3 +3,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/eunikitin/csf-utils/badge.svg?branch=master)](https://coveralls.io/github/eunikitin/csf-utils?branch=master)
 [![dependencies Status](https://david-dm.org/eunikitin/csf-utils/status.svg)](https://david-dm.org/eunikitin/csf-utils)
 [![devDependencies Status](https://david-dm.org/eunikitin/csf-utils/dev-status.svg)](https://david-dm.org/eunikitin/csf-utils?type=dev)
+
+Contains [excel-column-name](https://www.npmjs.com/package/excel-column-name) and [excel-cell-parser](https://www.npmjs.com/package/excel-cell-parser) packages
+
+## Install
+```npm install csf-utils```
