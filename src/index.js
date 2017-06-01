@@ -1,5 +1,6 @@
-const parseCell = require('excel-cell-parser');
-const columnName = require('excel-column-name');
+import parseCell from 'excel-cell-parser';
+import columnName from 'excel-column-name';
+
 
 module.exports = {
   parseCell,
