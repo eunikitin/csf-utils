@@ -13,10 +13,15 @@ Contains:
 ```npm install csf-utils```
 
 ## API
-#### parseCell(cell)
-##### cell
+
+### parseCell(cell)
+
+#### cell
+
 **Required**
+
 Type: string | object
+
 ```js
 var csfUtils = require('csf-utils');
 
@@ -24,30 +29,42 @@ csfUtils.parseCell('A1'); // { row: 1, column: 1 }
 csfUtils.parseCell({ row: 1, column: 1 }); // A1
 ```
 
-#### columnName.intToExcelCol(column)
-##### column
+### columnName.intToExcelCol(column)
+
+#### column
+
 **Required**
+
 Type: number
+
 ```js
 var csfUtils = require('csf-utils');
 
 csfUtils.columnName.intToExcelCol(1); // 'A' 
 ```
 
-#### columnName.excelColToInt(column)
-##### column
+### columnName.excelColToInt(column)
+
+#### column
+
 **Required**
+
 Type: string
+
 ```js
 var csfUtils = require('csf-utils');
 
 csfUtils.columnName.excelColToInt('A'); // 1 
 ```
 
-#### convert.sheetToAoa(data)
-##### data
+### convert.sheetToAoa(data)
+
+#### data
+
 **Required**
+
 Type: object
+
 ```js
 var convert = require('csf-convert');
 
