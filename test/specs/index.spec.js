@@ -10,4 +10,8 @@ describe('Library', () => {
   it('should export columnName property', () => {
     expect(library).to.have.property('columnName');
   });
+
+  it('should export convert property', () => {
+    expect(library).to.have.property('convert');
+  });
 });
