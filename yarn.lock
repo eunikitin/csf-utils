@@ -1200,6 +1200,12 @@ crypto-browserify@^3.11.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
 
+csf-convert@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/csf-convert/-/csf-convert-1.0.1.tgz#cebc2b71850e624240f37cd08cadbd557b971c1f"
+  dependencies:
+    excel-cell-parser "^1.0.1"
+
 d@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"

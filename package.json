@@ -39,6 +39,7 @@
     "sourceMap": false
   },
   "dependencies": {
+    "csf-convert": "^1.0.1",
     "excel-cell-parser": "^1.0.1",
     "excel-column-name": "^1.0.0"
   },
