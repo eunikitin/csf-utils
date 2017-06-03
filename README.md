@@ -66,7 +66,7 @@ csfUtils.columnName.excelColToInt('A'); // 1
 Type: object
 
 ```js
-var convert = require('csf-convert');
+var csfUtils = require('csf-utils');
 
 var sheetData = {
   A1: { t: 's', v: 'A1' },
@@ -80,7 +80,7 @@ var sheetData = {
   '!ref': 'A1:E2',
 };
 
-var aoa = convert(sheetData);
+var aoa = csfUtils.convert.sheetToAoa(sheetData);
 /* result:
 [
   [
